@@ -28,7 +28,7 @@ class Move extends Phaser.Scene {
     create() {
         let my = this.my;  
 
-        my.sprite.body = this.add.sprite(this.bodyX, this.bodyY, "platformParts", "character_squareRed.png");
+        my.sprite.body = this.add.sprite(this.bodyX, this.bodyY, "platformParts", "character_roundGreen.png");
         my.sprite.projectile = this.add.sprite(this.shootX, this.shootY, "platformParts", "character_handYellow.png");
 
         my.sprite.projectile.visible = false;
